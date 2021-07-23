@@ -4,6 +4,10 @@
 	<meta charset="utf-8">
 	<title>Hello Coursera!</title>
 	<style>
+	* {
+		border-sizing: border-box;
+
+	}
 	.style {
 		font-family: Arial, Helvetica;
 		color: hsl(30, 100%, 50%);
@@ -16,7 +20,10 @@
 	body {
   		margin: 0;
   		padding: 0;
-  		background: gray;
+  		background: url("file.pnj") no-repeat right center;
+  		
+
+  		
 	}
 	
 	h1{
@@ -25,22 +32,31 @@
 		text-algin: center
 	}
 	#box {
+		padding: 10px 10px 10px 10px;
 		background-color: blue;
+		border: 3px solid black;
+		margin: 40px;
+		width: 300px;
+		/*overflow: scroll;*/
+
 	}
 	#content{
 		background-color: green;
 	}
+	
 
 	</style>
 </head>
 <body>
 	<div id="box">
-		<div id="content">test text goes here</div>
+		<div id="content">
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque, nisi nec laoreet lacinia, lacus neque mattis mi, non gravida mi lectus faucibus metus. Integer orci massa, scelerisque a vestibulum ac, dictum a dui. Quisque condimentum viverra lectus vitae accumsan. Aenean volutpat porta fermentum. Curabitur purus massa, dapibus eu nibh ut, tincidunt tincidunt risus. In blandit lectus arcu, id dignissim neque dapibus vitae. Curabitur rutrum
+		</div>
 	</div>
 	<h1> heading important for SEO </h1>
 	<h2> sub heading</h2>
-
-	
+	<h3> h3 </h3>
+	<div class="test"> </div>
 	<div> block element </div>
 
 	<span> inline element </span>
@@ -62,7 +78,7 @@
 </ol>
 
 <p class="style">
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque, nisi nec laoreet lacinia, lacus neque mattis mi, non gravida mi lectus faucibus metus. Integer orci massa, scelerisque a vestibulum ac, dictum a dui. Quisque condimentum viverra lectus vitae accumsan. Aenean volutpat porta fermentum. Curabitur purus massa, dapibus eu nibh ut, tincidunt tincidunt risus. In blandit lectus arcu, id dignissim neque dapibus vitae. Curabitur rutrum et tortor vitae pharetra. Curabitur sem ante, blandit eu purus at, dictum hendrerit nisi. Etiam dolor orci, egestas et tempor vitae, scelerisque et ante. Etiam ut mollis metus, non tristique urna. Donec scelerisque elit facilisis consectetur maximus. 
+	 et tortor vitae pharetra. Curabitur sem ante, blandit eu purus at, dictum hendrerit nisi. Etiam dolor orci, egestas et tempor vitae, scelerisque et ante. Etiam ut mollis metus, non tristique urna. Donec scelerisque elit facilisis consectetur maximus. 
 </p>
 <a href="same-dir.html" target="_blank" title="same dir link"> linking to a file in the same dir </a>
 <!-- comment -->
